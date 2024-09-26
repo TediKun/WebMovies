@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-paragraft {
+    @apply text-sm md:text-base lg:text-lg text-slate-700;
+  }
+  .text-heading {
+    @apply text-2xl text-slate-800 font-extrabold;
+  }
+}
